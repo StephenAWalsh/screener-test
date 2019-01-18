@@ -1,0 +1,37 @@
+#---------------------------------------#
+# Project Ignores                       #
+#---------------------------------------#
+
+# output
+/tmp
+/build
+/dist
+
+# dependencies
+/node_modules
+.package.swp
+
+# linters
+.eslintcache/
+.eslintrc
+.eslintrc.yaml
+.eslintrc.json
+.eslintrc.js
+
+# misc
+/connect.lock
+/coverage/*
+/report_*
+/reports/
+.sass-cache/
+*.log
+
+
+#---------------------------------------#
+# OSX Ignores                           #
+#---------------------------------------#
+
+.DS_Store
+.AppleDouble
+.LSOverride
+.localized
